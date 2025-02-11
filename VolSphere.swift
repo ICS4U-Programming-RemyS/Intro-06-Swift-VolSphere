@@ -23,7 +23,7 @@ if let input = readLine(), let radius = Double(input) {
         let volume = (4.0 / 3.0) * Double.pi * pow(radius, 3)
 
         // Display the volume
-        print("The volume of a sphere with a radius of " + "\(radius)" + " cm is " + 
+        print("The volume of a sphere with a radius of " + "\(radius)" + " cm is " +
         String(format: "%.2f", volume) + " cm³")
         }
 }
